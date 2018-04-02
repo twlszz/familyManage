@@ -1,0 +1,10 @@
+.container-fluid(ng-controller="userManageCtrl")
+    // Row Select Example
+    .panel.panel-default
+        .panel-heading
+            button.pull-right.btn-sm.btn.btn-success(ng-click='addUser()') 添加用户
+            .panel-title 用户管理
+        table.table.ng-table-rowselected.table-hover(ng-table='userList')
+            tr(ng-repeat='user in $data',class="active")
+                td(data-title="'用户名'") {{user.realName}}
+                td(data-title="'职位'") {{user.job}}

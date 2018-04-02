@@ -1,0 +1,7 @@
+{
+  "directory": "bower_components",
+  "registry": "http://bower.herokuapp.com",
+  "strict-ssl": false,
+  "proxy":"http://127.0.0.1:25378",
+  "https-proxy":"http://127.0.0.1:25378"
+}

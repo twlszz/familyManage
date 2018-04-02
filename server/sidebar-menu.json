@@ -1,0 +1,16 @@
+[
+  {
+    "text": "首页",
+    "sref": "app.dashboard",
+    "icon": "icon-grid",
+    "label": "label label-success",
+    "translate": ""
+  },
+  {
+    "text": "用户管理",
+    "sref": "app.homeManage",
+    "icon": "icon-grid",
+    "label": "label label-success",
+    "translate": ""
+  }
+]
